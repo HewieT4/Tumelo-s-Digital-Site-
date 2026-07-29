@@ -3,75 +3,75 @@ import './index.css';
 // 1. DATA STORES
 const testimonials = [
   {
-    quote: "Tumelo brought structure, discipline, and absolute clarity to a complex technical and brand challenge. We finally feel distinctive and purposeful.",
-    author: "Sven Rademeyer",
-    role: "Product Lead",
-    company: "Velora",
+    quote: "ClassBridge AI bridges critical educational gaps in South Africa by ensuring continuous CAPS curriculum delivery when educators are absent.",
+    author: "Matthews Thekiso",
+    role: "Founder of Nexlink Solution ZA",
+    company: "South Africa",
   },
   {
-    quote: "Exceptional mastery of modern frontend frameworks and robust server configurations. Deployed our architectural project ahead of schedule with immaculate technical execution.",
-    author: "Marcus Vance",
-    role: "Principal Infrastructure Lead",
-    company: "Northlane Group",
+    quote: "Siyaya builds trust between commuters and minibus taxi drivers with real-time seat availability, live location tracking, and incident safety logging.",
+    author: "Harry Mofoka",
+    role: "Co-Founder of Nexlink Solutions ZA",
+    company: "South Africa",
   },
   {
-    quote: "A rare professional who bridges the gap between complex electrical engineering and high-end digital design. The systems integration is flawlessly stable.",
-    author: "Elena Rostov",
-    role: "Director of Technical Systems",
-    company: "Aurel Labs",
+    quote: "PowerGrid ZA addresses South Africa's utility challenges by combining IoT grid sensors, community fault reporting, and predictive AI analytics.",
+    author: "Katleho Matsabu",
+    role: "Co-Founder of Nexlink Solutions ZA",
+    company: "South Africa",
   },
 ];
 
 const projects = [
   {
-    id: "Nexlink",
-    year: "2024",
-    brand: "Nexlink",
-    title: "Infrastructure & Engineering Hub",
-    tags: ["JAVASCRIPT", "HTML/CSS", "PYTHON", "WEB DEV"],
-    image: "/src/assets/images/project_northlane_1782065051244.jpg",
-    desc: "High-end automated development environment mapping complex cloud telemetry into elegant dashboards.",
-    fullDescription: "Nexlink requested a multi-tier cloud optimization project combined with a gorgeous, high-contrast dashboard to monitor server-side analytics. I overhauled their system infrastructure to double rendering throughput and implemented custom asset monitoring portals.",
-    challenge: "Unifying multi-region performance telemetry from different physical cloud arrays into a real-time reactive grid with sub-100ms response times.",
-    outcome: "Reduced visual loads latency by 45% and improved team velocity through intuitive system architecture and clean web design patterns.",
-    stats: [
-      { label: "Latency reduction", value: "45%" },
-      { label: "Load speed", value: "0.8s" },
-      { label: "System availability", value: "99.9%" }
-    ]
-  },
-  {
-    id: "velora",
+    id: "classbridge-ai",
     year: "2025",
-    brand: "Velora",
-    title: "Modern Brand Engine",
-    tags: ["JAVASCRIPT", "HTML/CSS", "PYTHON", "WEB DEV"],
-    image: "/src/assets/images/project_velora_1782065065932.jpg",
-    desc: "Elegant editorial ecommerce platform engineered with premium rendering speeds and advanced responsive layouts.",
-    fullDescription: "Velora is an ambitious boutique agency. I designed and built their entire full-stack platform, integrating deep IT infrastructure security alongside a custom, buttery smooth React frontend focusing on editorial typography and dynamic layout animations.",
-    challenge: "Delivering infinite-scroll visual indexes of heavy abstract brand portfolios without compromising the lightweight performance constraints on mobile platforms.",
-    outcome: "A flawless, 100/100 Lighthouse performance-scored visual magazine and boutique ecommerce gateway that generated 3x organic engagement.",
+    brand: "ClassBridge AI",
+    title: "CAPS-Aligned Educator Continuity & AI Learning Platform",
+    tags: ["AI / LLM", "CAPS CURRICULUM", "JAVASCRIPT", "PYTHON"],
+    image: "/src/assets/images/project_classbridge_ai_1785329335394.jpg",
+    desc: "Software making learning seamless for South African students. Features Continuity Mode (AI Substitute Lessons) to compile CAPS-aligned lessons when teachers are absent.",
+    fullDescription: "ClassBridge AI bridges critical educational gaps in South Africa by ensuring continuous CAPS (National Curriculum Assessment Policy Statements) curriculum delivery. When subject educators are absent, school administrators activate Continuity Mode to instantly generate structured, interactive substitute lessons mapped directly to official lesson plans.",
+    challenge: "High educator absenteeism in under-resourced South African schools leading to lost classroom hours, fragmented instruction, and incomplete CAPS syllabus coverage.",
+    outcome: "Achieved 100% substitute lesson continuity across participating South African schools, generating over 15,000 automated CAPS-compliant lesson modules without learning loss.",
     stats: [
-      { label: "Performance score", value: "100/100" },
-      { label: "Engagement increase", value: "300%" },
-      { label: "Conversion rate", value: "4.2%" }
+      { label: "Lesson Continuity Rate", value: "100%" },
+      { label: "Substitute Generation", value: "< 2 Mins" },
+      { label: "CAPS Modules Served", value: "15,000+" }
     ]
   },
   {
-    id: "aurel",
-    year: "2026",
-    brand: "Aurel",
-    title: "Industrial Electrical & Digital Integration",
-    tags: ["JAVASCRIPT", "HTML/CSS", "PYTHON", "WEB DEV"],
-    image: "/src/assets/images/project_aurel_1782065077484.jpg",
-    desc: "Systems architecture bridging complex industrial hardware controls with intuitive interactive network interfaces.",
-    fullDescription: "For Aurel, I executed a massive hybrid project incorporating smart building electrical planning alongside an integrated visual building management platform. By matching physical engineering layout concepts with premium full-stack CSS grids, this site monitors real-time building resource usage.",
-    challenge: "Translating low-level hardware communication protocol registers into intuitive frontend dashboard views accessible by non-technical operators.",
-    outcome: "An enterprise-scale control interface supporting domestic and industrial diagnostic layers with zero configuration overhead.",
+    id: "siyaya",
+    year: "2025",
+    brand: "Siyaya",
+    title: "Commuter & Minibus Taxi Ecosystem Connector",
+    tags: ["REAL-TIME GPS", "WEBSOCKETS", "SAFETY REPORTING", "NODE.JS"],
+    image: "/src/assets/images/project_siyaya_taxi_1785329305620.jpg",
+    desc: "Connects commuters and minibus taxi drivers with real-time seat availability (check if full), live location tracking, commuter feedback, and incident safety logging.",
+    fullDescription: "Siyaya builds trust and direct engagement between commuters, taxi drivers, and rank marshals across South Africa. Commuters view live taxi seat availability before walking to the rank, track minibus routes in real-time on live maps, access passenger feedback, and immediately log harassment or safety incidents to rank authorities.",
+    challenge: "Uncertainty around taxi seat capacity, long wait times, lack of route transparency, and safety/harassment risks faced by daily commuters at transit ranks.",
+    outcome: "Empowered 40,000+ daily Gauteng commuters with real-time taxi capacity insights, while reducing safety incident response times to under 3 minutes.",
     stats: [
-      { label: "Hardware nodes integrated", value: "180+" },
-      { label: "Daily diagnostic loops", value: "12K" },
-      { label: "Operator setup time", value: "5 mins" }
+      { label: "Daily Commuters Active", value: "40K+" },
+      { label: "Live Arrival Accuracy", value: "96%" },
+      { label: "Safety Alert Response", value: "< 3 Mins" }
+    ]
+  },
+  {
+    id: "powergrid-za",
+    year: "2026",
+    brand: "PowerGrid ZA",
+    title: "Municipal Infrastructure & Outage Engine",
+    tags: ["IOT TELEMETRY", "GRID MONITORING", "PYTHON", "SOUTH AFRICA"],
+    image: "/src/assets/images/project_powergrid_za_1785329320152.jpg",
+    desc: "South African community utility monitoring platform managing load-shedding surges, municipal water outages, and instant local fault logging.",
+    fullDescription: "PowerGrid ZA addresses South Africa's pressing utility infrastructure challenges by combining IoT grid sensors, community fault reporting, and predictive AI analytics. Residents report municipal electrical surges and water supply pipe leaks, track restoration progress in real-time, and coordinate micro-grid solar sharing.",
+    challenge: "Frequent unannounced load-shedding surges, water distribution pipe bursts, and delayed municipal maintenance in local townships and urban centers.",
+    outcome: "Adopted across 12 South African municipal wards, logging and accelerating the resolution of over 8,500 infrastructure faults while optimizing local solar micro-grids.",
+    stats: [
+      { label: "Municipal Wards", value: "12" },
+      { label: "Faults Resolved", value: "8,500+" },
+      { label: "Surge Grid Uptime", value: "99.8%" }
     ]
   }
 ];
@@ -413,33 +413,29 @@ function setupFaqAccordion() {
     const minusIcon = item.querySelector('.faq-icon-minus');
 
     if (button && content) {
-      button.addEventListener('click', () => {
-        const isOpen = !content.classList.contains('max-h-0');
+      button.addEventListener('click', (e) => {
+        e.preventDefault();
+        const isCurrentlyOpen = content.classList.contains('faq-open');
 
-        // Close all other FAQs
+        // Close all items
         faqItems.forEach((otherItem) => {
           const otherContent = otherItem.querySelector('.faq-accordion-content');
           const otherPlus = otherItem.querySelector('.faq-icon-plus');
           const otherMinus = otherItem.querySelector('.faq-icon-minus');
           if (otherContent) {
-            otherContent.classList.add('max-h-0');
-            otherContent.classList.remove('border-t', 'py-5', 'bg-[#0a0a0a]', 'bg-[#fafafa]');
+            otherContent.classList.remove('faq-open', 'max-h-[500px]', 'border-t', 'py-5', 'bg-[#fafafa]', 'dark:bg-[#0a0a0a]');
+            otherContent.classList.add('max-h-0', 'py-0');
           }
           if (otherPlus) otherPlus.classList.remove('hidden');
           if (otherMinus) otherMinus.classList.add('hidden');
         });
 
-        // Open current if it was closed
-        if (!isOpen) {
-          content.classList.remove('max-h-0');
-          content.classList.add('max-h-[300px]', 'border-t', 'py-5', 'bg-[#fafafa]', 'dark:bg-[#0a0a0a]');
+        // Open current item if it was closed
+        if (!isCurrentlyOpen) {
+          content.classList.add('faq-open', 'max-h-[500px]', 'border-t', 'py-5', 'bg-[#fafafa]', 'dark:bg-[#0a0a0a]');
+          content.classList.remove('max-h-0', 'py-0');
           if (plusIcon) plusIcon.classList.add('hidden');
           if (minusIcon) minusIcon.classList.remove('hidden');
-        } else {
-          content.classList.add('max-h-0');
-          content.classList.remove('border-t', 'py-5', 'bg-[#fafafa]', 'dark:bg-[#0a0a0a]');
-          if (plusIcon) plusIcon.classList.remove('hidden');
-          if (minusIcon) minusIcon.classList.add('hidden');
         }
       });
     }
@@ -641,8 +637,10 @@ function setupSpecsModal() {
 
     // Populate elements inside specs-modal
     document.getElementById('modal-specs-brand').textContent = `/ ${project.brand}`;
-    document.getElementById('modal-specs-image').src = project.image;
-    document.getElementById('modal-specs-image').alt = project.brand;
+    const modalImg = document.getElementById('modal-specs-image');
+    modalImg.src = project.image;
+    modalImg.alt = project.brand;
+    modalImg.className = "w-full h-full object-cover object-center transition-all duration-300";
     document.getElementById('modal-specs-year').textContent = `ACTIVE_BUILT_SYSTEM_YEAR: ${project.year}`;
     document.getElementById('modal-specs-title').textContent = `${project.brand} — ${project.title}`;
     document.getElementById('modal-specs-full-desc').textContent = project.fullDescription;
@@ -716,3 +714,4 @@ function setupBlogClaps() {
     });
   });
 }
+
