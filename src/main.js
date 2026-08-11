@@ -1,5 +1,10 @@
 import './index.css';
 
+// Import project images for Vite production bundling
+import classbridgeImg from './assets/images/project_classbridge_ai_1785329335394.jpg';
+import siyayaImg from './assets/images/project_siyaya_taxi_1785329305620.jpg';
+import powergridImg from './assets/images/project_powergrid_za_1785329320152.jpg';
+
 // 1. DATA STORES
 const testimonials = [
   {
@@ -29,7 +34,7 @@ const projects = [
     brand: "ClassBridge AI",
     title: "CAPS-Aligned Educator Continuity & AI Learning Platform",
     tags: ["AI / LLM", "CAPS CURRICULUM", "JAVASCRIPT", "PYTHON"],
-    image: "/src/assets/images/project_classbridge_ai_1785329335394.jpg",
+    image: classbridgeImg,
     desc: "Software making learning seamless for South African students. Features Continuity Mode (AI Substitute Lessons) to compile CAPS-aligned lessons when teachers are absent.",
     fullDescription: "ClassBridge AI bridges critical educational gaps in South Africa by ensuring continuous CAPS (National Curriculum Assessment Policy Statements) curriculum delivery. When subject educators are absent, school administrators activate Continuity Mode to instantly generate structured, interactive substitute lessons mapped directly to official lesson plans.",
     challenge: "High educator absenteeism in under-resourced South African schools leading to lost classroom hours, fragmented instruction, and incomplete CAPS syllabus coverage.",
@@ -46,7 +51,7 @@ const projects = [
     brand: "Siyaya",
     title: "Commuter & Minibus Taxi Ecosystem Connector",
     tags: ["REAL-TIME GPS", "WEBSOCKETS", "SAFETY REPORTING", "NODE.JS"],
-    image: "/src/assets/images/project_siyaya_taxi_1785329305620.jpg",
+    image: siyayaImg,
     desc: "Connects commuters and minibus taxi drivers with real-time seat availability (check if full), live location tracking, commuter feedback, and incident safety logging.",
     fullDescription: "Siyaya builds trust and direct engagement between commuters, taxi drivers, and rank marshals across South Africa. Commuters view live taxi seat availability before walking to the rank, track minibus routes in real-time on live maps, access passenger feedback, and immediately log harassment or safety incidents to rank authorities.",
     challenge: "Uncertainty around taxi seat capacity, long wait times, lack of route transparency, and safety/harassment risks faced by daily commuters at transit ranks.",
@@ -63,7 +68,7 @@ const projects = [
     brand: "PowerGrid ZA",
     title: "Municipal Infrastructure & Outage Engine",
     tags: ["IOT TELEMETRY", "GRID MONITORING", "PYTHON", "SOUTH AFRICA"],
-    image: "/src/assets/images/project_powergrid_za_1785329320152.jpg",
+    image: powergridImg,
     desc: "South African community utility monitoring platform managing load-shedding surges, municipal water outages, and instant local fault logging.",
     fullDescription: "PowerGrid ZA addresses South Africa's pressing utility infrastructure challenges by combining IoT grid sensors, community fault reporting, and predictive AI analytics. Residents report municipal electrical surges and water supply pipe leaks, track restoration progress in real-time, and coordinate micro-grid solar sharing.",
     challenge: "Frequent unannounced load-shedding surges, water distribution pipe bursts, and delayed municipal maintenance in local townships and urban centers.",
